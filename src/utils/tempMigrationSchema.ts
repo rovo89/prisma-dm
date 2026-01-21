@@ -7,11 +7,7 @@ import {
   Config,
   formatAst,
   CommentBlock,
-  ConfigBlockMember,
 } from "@loancrate/prisma-schema-parser";
-import { DataSourceConfig } from "../services/DB";
-import { prismaSqliteURLToFilePath } from "./prismaSqliteURLToFilePath";
-import { ConfigSchema } from "../config/config.type";
 import path from "path";
 
 function isClientGenerator(decl: SchemaDeclaration): boolean {
